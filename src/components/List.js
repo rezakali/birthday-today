@@ -8,7 +8,7 @@ const List = ({ people }) => {
             <h4>{Name} </h4>
             <div className="d-flex g-2">
               <span className="me-3">{age} Years</span>
-              {gender === "Male" ? <p className="text-danger">{gender} </p> : <p className="text-success">{gender} </p> }
+              {gender === "Male" ? <p className="text-danger m-0">{gender} </p> : <p className="text-success m-0">{gender} </p> }
             </div>
             {/* <button onClick={() => (console.log(person))} className="btn btn-danger">Delete</button> */}
           </div>
