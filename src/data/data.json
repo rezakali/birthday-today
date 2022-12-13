@@ -1,0 +1,18 @@
+[
+  { "id": 1, "Name": "Sterne", "gender": "Male", "age": 18 },
+  { "id": 2, "Name": "Lucilia", "gender": "Female", "age": 95 },
+  { "id": 3, "Name": "Juana", "gender": "Female", "age": 55 },
+  { "id": 4, "Name": "Emilio", "gender": "Male", "age": 94 },
+  { "id": 5, "Name": "Claire", "gender": "Male", "age": 44 },
+  { "id": 6, "Name": "Kain", "gender": "Genderqueer", "age": 62 },
+  { "id": 7, "Name": "Jeanna", "gender": "Female", "age": 14 },
+  { "id": 8, "Name": "Rona", "gender": "Female", "age": 100 },
+  { "id": 9, "Name": "Hollyanne", "gender": "Female", "age": 12 },
+  { "id": 10, "Name": "Solly", "gender": "Male", "age": 94 },
+  { "id": 11, "Name": "Burch", "gender": "Male", "age": 69 },
+  { "id": 12, "Name": "Hughie", "gender": "Male", "age": 80 },
+  { "id": 13, "Name": "Tammie", "gender": "Male", "age": 52 },
+  { "id": 14, "Name": "Basilio", "gender": "Male", "age": 30 },
+  { "id": 15, "Name": "Darb", "gender": "Male", "age": 83 },
+  { "id": 16, "Name": "La verne", "gender": "Female", "age": 15 }
+]

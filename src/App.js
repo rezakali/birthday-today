@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Button, Container, Card } from "react-bootstrap";
+import data from "./data/data.json"
+import List from "./components/List"
+
 
 function App() {
+  const [people, setPeople ] = useState(data)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Container>
+      <div className="w-50 m-auto">
+        <Card className="mt-5 p-3">
+            <h2 className="mb-4">{people.length} Birthdays Today</h2>
+            <List people = {people} />
+            <Button variant="success" onClick={() => setPeople([])}>Clear All</Button>
+        </Card>
+      </div>
+    </Container>
+    </>
   );
 }
 
